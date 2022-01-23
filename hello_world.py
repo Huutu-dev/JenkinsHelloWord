@@ -1,5 +1,7 @@
+import os
 def main():
-    print("Hello, Jenkin Covid 90!")
+    print(os.path.curdir)
+    print("Hello, Jenkin CURDIR!")
 
 if __name__ == '__main__':
     main()
